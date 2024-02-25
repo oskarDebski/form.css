@@ -27,7 +27,7 @@ body {
 }
 
 .login-container {
-    --color: hsl(var(--primary-dark-hsl),.7);
+    --color: hsl(var(--primary-dark-hsl),.6);
     background-color: var(--color);
     box-shadow: 0 0 15px 0 var(--color);
     padding: 40px 30px;
@@ -119,5 +119,5 @@ body {
 
 .login-button:hover,
 .login-button:focus {
-    background-color: hsl(var(--primary-hsl), .4);
+    background-color: hsl(var(--primary-hsl), .5);
 }
